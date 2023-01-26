@@ -8,17 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		CD5A5981297DAAAB002672FE /* PaletteCombatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5A5980297DAAAB002672FE /* PaletteCombatApp.swift */; };
-		CD5A5983297DAAAB002672FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5A5982297DAAAB002672FE /* ContentView.swift */; };
+		CD5A5983297DAAAB002672FE /* PaletteCombatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5A5982297DAAAB002672FE /* PaletteCombatView.swift */; };
 		CD5A5985297DAAAD002672FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD5A5984297DAAAD002672FE /* Assets.xcassets */; };
 		CD5A5988297DAAAD002672FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD5A5987297DAAAD002672FE /* Preview Assets.xcassets */; };
+		CD5A5991297DAD15002672FE /* CompareTwoColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5A5990297DAD15002672FE /* CompareTwoColorView.swift */; };
+		CD5A599529819F5A002672FE /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5A599429819F5A002672FE /* Color+.swift */; };
+		CD5A599A2981A14F002672FE /* ColorCompareInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5A59992981A14F002672FE /* ColorCompareInfo.swift */; };
+		CD5A599E2981A196002672FE /* ColorApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5A599D2981A196002672FE /* ColorApiService.swift */; };
+		CD5A59A02982FA2B002672FE /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5A599F2982FA2B002672FE /* UIColor+.swift */; };
+		CD5A59A22982FBDE002672FE /* ColorApiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5A59A12982FBDE002672FE /* ColorApiProvider.swift */; };
+		CD5A59A42982FC0E002672FE /* ColorApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5A59A32982FC0E002672FE /* ColorApiResponse.swift */; };
+		CD5A59A62982FC29002672FE /* ColorApiResponseFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5A59A52982FC29002672FE /* ColorApiResponseFormat.swift */; };
+		CD5A59A82982FD68002672FE /* ComparableColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5A59A72982FD68002672FE /* ComparableColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CD5A597D297DAAAB002672FE /* PaletteCombat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaletteCombat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD5A5980297DAAAB002672FE /* PaletteCombatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteCombatApp.swift; sourceTree = "<group>"; };
-		CD5A5982297DAAAB002672FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CD5A5982297DAAAB002672FE /* PaletteCombatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteCombatView.swift; sourceTree = "<group>"; };
 		CD5A5984297DAAAD002672FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD5A5987297DAAAD002672FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD5A5990297DAD15002672FE /* CompareTwoColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareTwoColorView.swift; sourceTree = "<group>"; };
+		CD5A599429819F5A002672FE /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
+		CD5A59992981A14F002672FE /* ColorCompareInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCompareInfo.swift; sourceTree = "<group>"; };
+		CD5A599D2981A196002672FE /* ColorApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorApiService.swift; sourceTree = "<group>"; };
+		CD5A599F2982FA2B002672FE /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		CD5A59A12982FBDE002672FE /* ColorApiProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorApiProvider.swift; sourceTree = "<group>"; };
+		CD5A59A32982FC0E002672FE /* ColorApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorApiResponse.swift; sourceTree = "<group>"; };
+		CD5A59A52982FC29002672FE /* ColorApiResponseFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorApiResponseFormat.swift; sourceTree = "<group>"; };
+		CD5A59A72982FD68002672FE /* ComparableColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparableColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +69,12 @@
 		CD5A597F297DAAAB002672FE /* PaletteCombat */ = {
 			isa = PBXGroup;
 			children = (
+				CD5A599329819F4B002672FE /* Extension */,
+				CD5A599B2981A16B002672FE /* API */,
+				CD5A59962981A113002672FE /* Model */,
+				CD5A599229819F0C002672FE /* View */,
+				CD5A5982297DAAAB002672FE /* PaletteCombatView.swift */,
 				CD5A5980297DAAAB002672FE /* PaletteCombatApp.swift */,
-				CD5A5982297DAAAB002672FE /* ContentView.swift */,
 				CD5A5984297DAAAD002672FE /* Assets.xcassets */,
 				CD5A5986297DAAAD002672FE /* Preview Content */,
 			);
@@ -65,6 +87,51 @@
 				CD5A5987297DAAAD002672FE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CD5A599229819F0C002672FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD5A5990297DAD15002672FE /* CompareTwoColorView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD5A599329819F4B002672FE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CD5A599429819F5A002672FE /* Color+.swift */,
+				CD5A599F2982FA2B002672FE /* UIColor+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CD5A59962981A113002672FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD5A59992981A14F002672FE /* ColorCompareInfo.swift */,
+				CD5A59A72982FD68002672FE /* ComparableColor.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD5A599B2981A16B002672FE /* API */ = {
+			isa = PBXGroup;
+			children = (
+				CD5A599C2981A184002672FE /* ColorAPI */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		CD5A599C2981A184002672FE /* ColorAPI */ = {
+			isa = PBXGroup;
+			children = (
+				CD5A599D2981A196002672FE /* ColorApiService.swift */,
+				CD5A59A12982FBDE002672FE /* ColorApiProvider.swift */,
+				CD5A59A32982FC0E002672FE /* ColorApiResponse.swift */,
+				CD5A59A52982FC29002672FE /* ColorApiResponseFormat.swift */,
+			);
+			path = ColorAPI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +204,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD5A5983297DAAAB002672FE /* ContentView.swift in Sources */,
+				CD5A5983297DAAAB002672FE /* PaletteCombatView.swift in Sources */,
+				CD5A59A02982FA2B002672FE /* UIColor+.swift in Sources */,
+				CD5A599529819F5A002672FE /* Color+.swift in Sources */,
+				CD5A599A2981A14F002672FE /* ColorCompareInfo.swift in Sources */,
+				CD5A59A62982FC29002672FE /* ColorApiResponseFormat.swift in Sources */,
+				CD5A59A42982FC0E002672FE /* ColorApiResponse.swift in Sources */,
+				CD5A59A82982FD68002672FE /* ComparableColor.swift in Sources */,
+				CD5A599E2981A196002672FE /* ColorApiService.swift in Sources */,
+				CD5A59A22982FBDE002672FE /* ColorApiProvider.swift in Sources */,
 				CD5A5981297DAAAB002672FE /* PaletteCombatApp.swift in Sources */,
+				CD5A5991297DAD15002672FE /* CompareTwoColorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,17 +340,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PaletteCombat/Preview Content\"";
 				DEVELOPMENT_TEAM = Y2FBF2ZJ7C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Palette Combat";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -282,6 +360,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = tvoyfm.PaletteCombat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -293,17 +372,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PaletteCombat/Preview Content\"";
 				DEVELOPMENT_TEAM = Y2FBF2ZJ7C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Palette Combat";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,6 +392,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = tvoyfm.PaletteCombat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

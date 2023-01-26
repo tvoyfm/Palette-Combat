@@ -11,7 +11,7 @@ import SwiftUI
 struct PaletteCombatApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PaletteCombatView()
         }
     }
 }
