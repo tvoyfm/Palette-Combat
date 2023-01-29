@@ -21,6 +21,7 @@ class ComparableColor: ObservableObject {
 
     public var color: Color {
         didSet {
+            colorInfo = nil
             hexString = color.hexString
         }
     }
@@ -32,7 +33,6 @@ class ComparableColor: ObservableObject {
         $hexString
             .debounce(for: .seconds(1), scheduler: DispatchQueue.main)
             .sink(receiveValue: { [weak self] hex in
-                self?.colorInfo = nil
                 self?.getColorInfo(by: hex)
             })
             .store(in: &cancellables)
